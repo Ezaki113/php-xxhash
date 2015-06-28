@@ -5,9 +5,9 @@
 #include "php.h"
 #include "php_ini.h"
 #include "ext/standard/info.h"
-#include "php_xxhash.h"
+#include "xxhash/php_xxhash.h"
 
-#include "xxhash.c"
+#include "xxhash/xxhash.c"
 
 #ifdef COMPILE_DL_XXHASH
 ZEND_GET_MODULE(xxhash)
