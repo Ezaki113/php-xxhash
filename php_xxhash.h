@@ -23,6 +23,7 @@ PHP_RSHUTDOWN_FUNCTION(xxhash);
 PHP_MINFO_FUNCTION(xxhash);
 
 PHP_FUNCTION(xxhash32);
+PHP_FUNCTION(xxhash64);
 
 #endif /* PHP_XXHASH_H */
 
