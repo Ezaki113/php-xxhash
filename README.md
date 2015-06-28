@@ -13,10 +13,11 @@ PHP extension to add support for the [xxhash](http://code.google.com/p/xxhash/) 
 
 ## How To Use
 
-This extension adds one new PHP function:
+This extension adds two new PHP functions:
 
 ```
     int xxhash32(string $data);
+    long long xxhash64(string $data); //Tested only on 64bit systems!
 ```
 
 It will checksum the string, and return the checksum.
