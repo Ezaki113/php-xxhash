@@ -5,7 +5,7 @@
 #include "php.h"
 #include "php_ini.h"
 #include "ext/standard/info.h"
-#include "xxhash/php_xxhash.h"
+#include "php_xxhash.h"
 
 #include "xxhash/xxhash.c"
 
